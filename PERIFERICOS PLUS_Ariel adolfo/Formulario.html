@@ -1,0 +1,98 @@
+<html>
+	<head>
+		<title>Productos | Perifericos plus</title>
+	</head>
+	<style>
+		body{
+			margin: 0;
+			}
+			
+			*{ padding: 0;
+			margin: 0;
+			}
+
+			nav{
+			background-color:0,63,77;
+			width: 100%;
+			list-style-type: none;
+			text-align: center;
+			}
+			
+			nav ul {
+			background-color: #45464f;
+			width: 100%;
+			list-style-type: none;
+			text-align: center;
+			}	
+			
+			
+			nav li{
+			display: inline-flex;
+			}
+			 
+			nav a {
+			text-decoration: none;
+			color: white;
+			padding: 10px;
+			width: 150px;
+			}
+	</style>
+	<body>
+		<img src="BB.png" width="100%">
+			<nav>
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="productos.html">Productos</a></li>
+					<li><a href="index6contactame.html">Contacto</a></li>
+					<li><a href="index5ayuda.html">¡Ayuda!</a></li>
+				</ul>
+			</nav>
+		<form action="gracias.html" method="post">
+		<br><br>
+		<fieldset>
+				<legend>Datos de compra</legend>
+		
+				<table>
+					<tr>
+						<td>
+							<h2>Nombre</h2>
+							<input type= "text" placeholder= "Ingrese su nombre" id= "Nombre" name= "Nombre" size="45"></br>
+						</td>
+						<td>
+							<h2>Apellido</h2>
+							<input type= "text" placeholder= "Ingrese su apellido" id= "Apellido" name= "Apellido" size="45"></br>
+						</td>	
+					</tr>	
+					<tr>
+						<td>
+							<h2>Ciudad</h2>
+							<input type= "text" placeholder= "Ingrese su ciudad" id= "Ciudad" name= "Ciudad" size="45"></br>
+						</td>
+						<td>
+							<h2>Gmail</h2>
+							<input type= "text" placeholder= "Ingrese su Gmail" id= "Gmail" name= "Gmail" size="45"></br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h2>Metodo de pago</h2>
+							<input type= "text" placeholder= "Metodo de pago" id= "Metodo de pago" name= "Metodo de pago" size="45"></br>
+						</td>
+						<td>
+						<h2>Dirección</h2>
+						<input type= "text" placeholder= "Ingrese su dirección" id= "ciudad" name= "Ciudad" size="45"></br>
+						</td>
+					</tr>	
+					<tr>
+						<td>
+							<label for="sexo">Sexo: </label>
+							<select id="sexo">
+							<option value="valor1">Hombre</option> 
+							<option value="valor2" selected>Mujer</option>
+							<option value="valor2" selected>Prefiero no decirlo</option>
+					</tr>
+				</table>
+		</fieldset>
+		<input type="submit" value="Enviar">
+	</body>
+</html>
